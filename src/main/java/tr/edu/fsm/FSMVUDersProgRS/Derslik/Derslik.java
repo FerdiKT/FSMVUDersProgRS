@@ -1,5 +1,5 @@
 package tr.edu.fsm.FSMVUDersProgRS.Derslik;
-// Generated 03.AIu.2015 14:34:14 by Hibernate Tools 4.3.1
+// Generated 04.AIu.2015 11:12:22 by Hibernate Tools 4.3.1
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -17,10 +17,6 @@ import javax.persistence.UniqueConstraint;
 		@UniqueConstraint(columnNames = "derslik_adi"), @UniqueConstraint(columnNames = "sorumlu_bolum_id") })
 public class Derslik implements java.io.Serializable {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 2624592274558094905L;
 	private Integer id;
 	private int derslikKodu;
 	private String derslikAdi;

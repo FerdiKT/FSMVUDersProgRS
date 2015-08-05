@@ -17,10 +17,12 @@ import tr.edu.fsm.FSMVUDersProgRS.Hibernate.HibernateUtil;
 @SpringBootApplication
 public class App {
 	
-	static Session session = HibernateUtil.getSessionFactory().openSession();
+	//static Session session = HibernateUtil.getSessionFactory().openSession();
 	
     public static void main( String[] args ){
+
     	SpringApplication.run(App.class, args);
+    	/*
     	Query query = session.createQuery("from Derslik where Id=4");
 
     	Derslik derslik = new Derslik();
@@ -31,5 +33,6 @@ public class App {
     	
     	json = gson.toJson(derslik);
         System.out.println( json);
+        */
     }
 }

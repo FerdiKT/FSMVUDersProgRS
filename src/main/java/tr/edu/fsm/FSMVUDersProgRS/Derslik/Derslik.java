@@ -1,5 +1,6 @@
 package tr.edu.fsm.FSMVUDersProgRS.Derslik;
 // default package
+
 // Generated 07.A�u.2015 11:35:12 by Hibernate Tools 4.3.1
 
 import javax.persistence.Column;
@@ -16,15 +17,22 @@ import javax.persistence.Table;
 @Table(name = "Derslik", catalog = "sql286097")
 public class Derslik implements java.io.Serializable {
 
+	private static Derslik instance;
 	private Integer id;
 	private String derslikKodu;
 	private String derslikAdi;
 	private String bolumKodu;
 
-	public Derslik() {
+	private Derslik() {
 	}
 
-	public Derslik(String derslikKodu, String derslikAdi, String bolumKodu) {
+	public static Derslik getInstance() {
+		if (instance == null)
+			instance = new Derslik();
+		return instance;
+	}
+
+	public void setAll(String derslikKodu, String derslikAdi, String bolumKodu) {
 		this.derslikKodu = derslikKodu;
 		this.derslikAdi = derslikAdi;
 		this.bolumKodu = bolumKodu;

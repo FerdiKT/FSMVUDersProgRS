@@ -6,12 +6,27 @@
     <session-factory>
         <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.password">sZ4!aM8*</property>
-        <property name="hibernate.connection.url">jdbc:mysql://sql2.freemysqlhosting.net:3306/sql285436</property>
-        <property name="hibernate.connection.username">sql285436</property>
+        <property name="hibernate.connection.password">mL6%bN1%</property>
+        <property name="hibernate.connection.url">jdbc:mysql://sql2.freemysqlhosting.net:3306/sql286097</property>
+        <property name="hibernate.connection.username">sql286097</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.search.autoregister_listeners">false</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>
+        <mapping class="tr.edu.fsm.dersprog.FSMVUDersProg.Akademisyen.Akademisyen" />
+		<mapping class="tr.edu.fsm.dersprog.FSMVUDersProg.Akademisyen.AkademisyenDers" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Bolum.Bolum" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Bolum.Fakulte" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Bolum.Yerleske" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Ders.Ders" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Ders.DersTarihi" />
         <mapping class="tr.edu.fsm.FSMVUDersProgRS.Derslik.Derslik" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Donem.Donem" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Donem.DersDonem" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Ogrenci.Ogrenci" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Ogrenci.DonemOgrenci" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Ogrenci.DersOgrenci" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Ogrenci.BolumOgrenci" />
+        <mapping class="tr.edu.fsm.FSMVUDersProgRS.Yonetim.Yonetici" />
+        
     </session-factory>
 </hibernate-configuration>

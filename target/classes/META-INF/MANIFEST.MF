@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: FSMVUDersProgRS
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: FerdiKT
+Built-By: 6195
 Implementation-Vendor-Id: tr.edu.fsm
-Build-Jdk: 1.8.0_20
+Build-Jdk: 1.8.0_51
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 

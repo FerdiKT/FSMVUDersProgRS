@@ -1,5 +1,9 @@
 package tr.edu.fsm.FSMVUDersProgRS.Message;
 
+/*
+ * Bu interface client a mesaj göndermek için oluşturuldu.
+ * error, notificatoin ve warning de bu interface i implement etmiştir.
+ */
 public interface Message {
 	
 	int kod=0;
